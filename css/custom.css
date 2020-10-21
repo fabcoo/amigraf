@@ -445,7 +445,7 @@ hr {
 }
 
 .slideshow-container{
-  max-width: none;
+  max-width: none !important;
 }
 
 h2.text-center{
