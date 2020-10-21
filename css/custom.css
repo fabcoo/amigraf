@@ -722,7 +722,7 @@ h2.text-center{
 }
 
 .single-parcours_diplomant h2{
-  
+
 }
 
 /* CCS PAGE CENTRE DE FORMATION */
@@ -1699,10 +1699,6 @@ h5 {
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.fichesmodules {
-  margin-top: 40px;
 }
 
 .pagerech {
