@@ -16,7 +16,7 @@
 
 	<div class="container-fuid padding-large">
 			<div class="row">
-								<div class="col-md-5">
+								<div class="col-md-8">
 													<h1 class="titre-accueil"><?php the_field('titre') ?></h1>
 													<span class="text-intro"><?php the_field('text_intro') ?></span>
 
@@ -32,25 +32,18 @@
 													<p class="domaine">Toutes nos formations: <a href="amigraf/recherche">PRINT</a> ou <a href="amigraf/recherche">WEB</a></p>
 								</div>
 
-								<div class="col-md-7">
+								<div class="col-md-4">
 													<img class="fondVideo" src="<?php echo get_template_directory_uri(); ?>/img/calque2.png" alt="">
 																<video autoplay muted loop class="Video">
 																		<source src="<?php the_field('video_accueil') ?>" type="video/mp4"> <!-- 340x300px -->
 																</video>
 								</div>
 			</div>
-			<div class="row">
-						<div class="col-md-12">
-							<div class="textscroll">
-										<p>Nos évenement et actualités</p>
-										<i class="fas fa-chevron-down"></i>
-							</div>
-						</div>
-			</div>
 	</div>
 
 	<div class="trame-grise"></div>
-	<div class="container">
+	<h2>Nos dernières actualités</h2>
+	<div class="container-fuid padding-large">
 			<div class="slideshow-container">
 				<?php
 				$args = array( 'numberposts' => 2, 'order'=> 'DESC', 'orderby' => 'date', 'category_name' => 'evenement' );
