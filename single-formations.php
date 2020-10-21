@@ -74,8 +74,17 @@ get_header();
 
 			<div class="row">
 					<div class="col-md-6 obj">
-						<h3>LES OBJECTIFS DU MODULE</h3>
-							<p class="objectif_module"><?php the_field('objectif_module');?></p>
+						<h3>OBJECTIFS DU MODULE</h3>
+						<p class="objectif_module"><?php the_field('objectif_module');?></p>
+
+						<h3>PUBLIC</h3>
+						<p class="objectif_module"><?php the_field('public');?></p>
+
+						<h3>PRÉ-REQUIS</h3>
+						<p class="objectif_module"><?php the_field('pre_requis');?></p>
+
+						<h3>MÉTHODE PÉDAGOGIQUE</h3>
+						<p class="objectif_module"><?php the_field('methode_pedagogique');?></p>
 					</div>
 					<div class="col-md-6 prog">
 						<h3>PROGRAMME</h3>
