@@ -74,7 +74,7 @@ get_header();
 
 			<div class="row">
 					<div class="col-md-6 obj">
-						<h3>OBJECTIFS DU MODULE</h3>
+						<h3>OBJECTIFS</h3>
 						<p class="objectif_module"><?php the_field('objectif_module');?></p>
 
 						<h3>PUBLIC</h3>
