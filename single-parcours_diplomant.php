@@ -73,10 +73,10 @@
 							<img src="<?php the_field('img_part1');?>" alt="">
 					</div>
 					<div class="col-md-7">
-							<h3><?php the_field('titre_part1');?></h3>
-							<p><?php the_field('text_part1');?></p>
-              <h3><?php the_field('titre_part4');?></h3>
-							<p><?php the_field('text_part4');?></p>
+							<h3>LE CONTENU DE LA FORMATION</h3>
+							<p><?php the_field('contenu_formation');?></p>
+              				<h3>LES DÉBOUCHÉS DANS CE MÉTIER</h3>
+							<p><?php the_field('debouches');?></p>
 					</div>
 			</div>
 	</div>
@@ -84,10 +84,17 @@
 	<div class="container-fluid padding-large parcourspart2">
 			<div class="row">
 					<div class="col-md-6">
-							<h3><?php the_field('titre_part2');?></h3>
-							<p><?php the_field('text_part2');?></p>
+						<h3>PUBLIC</h3>
+						<p class="objectif_module"><?php the_field('public');?></p>
+			
+						<h3>PRÉ-REQUIS</h3>
+						<p class="objectif_module"><?php the_field('pre_requis');?></p>
+
+						<h3>MÉTHODE PÉDAGOGIQUE</h3>
+						<p class="objectif_module"><?php the_field('methode_pedagogique');?></p>
 					</div>
 					<div class="col-md-6 fichesmodules">
+						<h3 class="text-center">CONTENU DE LA FORMATION</h3>
             <?php
 
 $modules_parcours = get_field('modules_parcours');
@@ -103,38 +110,6 @@ if( $modules_parcours ): ?>
 			</div>
 	</div>
 
-	<div class="container-fluid padding-large parcourspart3">
-			<div class="row">
-					<div class="col-md-6">
-							<h3><?php the_field('titre_part3');?></h3>
-							<p><?php the_field('text_part3');?></p>
-					</div>
-					<div class="col-md-6 temoin">
-						<div class="row">
-							<!--<div class="col-md-12">
-									<h4 class="temoignage">ILS PARLENT DE NOUS</h4>
-							</div>
-							  <div class="row">
-										<div class="col-md-2">
-												<img class="img-temoin" src="<?php echo get_template_directory_uri(); ?>/img/chloe.png" alt="">
-										</div>
-										<div class="col-md-10 testflex">
-												<i class="fas fa-angle-double-left fa-3x itemoinhaut"></i><p><?php the_field('premier_temoignage') ?><i class="fas fa-angle-double-right fa-3x itemoinbas"></i></p>
-										</div>
-							<div class="row">
-
-										<div class="col-md-2">
-												<img class="img-temoin" src="<?php echo get_template_directory_uri(); ?>/img/chloe.png" alt="">
-										</div>
-										<div class="col-md-10 testflex">
-												<i class="fas fa-angle-double-left fa-3x itemoinhaut"></i><p><?php the_field('premier_temoignage') ?><i class="fas fa-angle-double-right fa-3x itemoinbas"></i></p>
-										</div>
-							</div>
-            </div> -->
-						</div>
-					</div>
-			</div>
-	</div>
 
 <div class="trame-grise"></div>
 
