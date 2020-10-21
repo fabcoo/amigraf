@@ -431,7 +431,7 @@ hr {
   line-height: 1.43;
   letter-spacing: 0.4px;
   color: #1a171b;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .domaine a {
@@ -442,7 +442,6 @@ hr {
   color: #1a171b;
   background-color: #d3d900;
   padding: 30px 15px 30px 15px;
-  margin: 30px 0;
 }
 
 .slideshow-container{
