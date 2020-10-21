@@ -673,20 +673,17 @@ h2.text-center{
   margin-top: 20px;
 }
 
-.duree_module {
-  text-align: center;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
-
-.public_module {
+.duree_module,
+.public_module,
+.reconnaissance {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
 
 .duree_module i,
-.public_module i {
+.public_module i,
+.reconnaissance i {
   padding-right: 5px;
 }
 

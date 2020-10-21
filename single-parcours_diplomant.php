@@ -24,9 +24,6 @@
  		<div class="container-fluid">
  			<div class="row">
  						<div class="col-md-12">
- 								<p class="numero_didentification"><?php the_field('type_parcours');?></p>
- 						</div>
- 						<div class="col-md-12">
  								<h2 class="titre_module"><?php the_field('titre_parcours');?></h2>
  						</div>
  						<div class="col-md-12">
@@ -141,7 +138,7 @@ if( $modules_parcours ): ?>
 
 <div class="trame-grise"></div>
 
-<div class="container">
+<div class="container-fluid padding-large">
 		<div class="row">
 		<div class="col-md-4">
 			<?php
@@ -158,14 +155,15 @@ if( $modules_parcours ): ?>
 			<?php endforeach; ?>
 		</div>
 		<div class="col-md-8 espacement">
+				<h2>ACTUALITÉ</h2>
 				<div class="row">
-					<h2>ACTUALITÉ</h2>
 					<?php
 					$args = array( 'numberposts' => 3, 'order'=> 'DESC', 'orderby' => 'date', 'category_name' => 'actualite' );
 					$postslist = get_posts( $args );
 					foreach ($postslist as $post) :  setup_postdata($post); ?>
 
-					<div class="row content-actu">
+					<div class="content-actu col-md-4">
+						<div class="row">
 							<div class="col-md-4">
 									<div class="img-actu-page"><?php amigraf_post_thumbnail(); ?></div>
 							</div>
@@ -174,6 +172,7 @@ if( $modules_parcours ): ?>
 								<div class="text-actu"><?php the_excerpt(); ?></div>
 								<div class="liresuite"><a href="<?php echo get_permalink(); ?>">Lire la suite</a></div>
 							</div>
+						</div>
 					</div>
 					<?php endforeach; ?>
 					<div style="margin-bottom:40px; " class="actubutton">
