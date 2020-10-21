@@ -86,7 +86,7 @@
 					<div class="col-md-6">
 						<h3>PUBLIC</h3>
 						<p class="objectif_module"><?php the_field('public');?></p>
-			
+
 						<h3>PRÉ-REQUIS</h3>
 						<p class="objectif_module"><?php the_field('pre_requis');?></p>
 
@@ -130,7 +130,7 @@ if( $modules_parcours ): ?>
 			<?php endforeach; ?>
 		</div>
 		<div class="col-md-8 espacement">
-				<h2>ACTUALITÉ</h2>
+				<h2>ACTUALITÉS</h2>
 				<div class="row">
 					<?php
 					$args = array( 'numberposts' => 3, 'order'=> 'DESC', 'orderby' => 'date', 'category_name' => 'actualite' );
