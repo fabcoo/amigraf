@@ -1,0 +1,431 @@
+@media screen and (max-width: 500px) {
+  .titre-accueil {
+    font-size: 22px;
+  }
+
+  .row {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .text-intro {
+    font-size: 14px;
+  }
+
+  .Video,
+  .fondVideo {
+    display: none;
+  }
+
+  .titre-actu {
+    font-size: 24px;
+  }
+
+  .trame-grise {
+    padding: 0;
+  }
+
+  .textscroll {
+    display: none;
+  }
+
+  .actus {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+  }
+
+  .tag-actu {
+    margin-top: -50px;
+  }
+
+  .hover-actu {
+    box-shadow: none;
+    transition: none;
+  }
+
+  .hover-actu:hover {
+    box-shadow: none;
+  }
+
+  .reassurance {
+    font-size: 11px;
+  }
+
+  .titrefooter {
+    margin-top: 40px;
+  }
+
+  .align-droite {
+    margin-top: 50px;
+  }
+
+  .smart-popin .sp-cell {
+    padding: 50px 0 0 0;
+  }
+
+  .smart-popin .sp-body {
+    width: 95%;
+    min-width: 200px;
+  }
+
+  form .row {
+    display: block;
+  }
+
+  .sidenav ul {
+    padding-left: 40px;
+  }
+
+  .pictomail a {
+    padding-left: 40px;
+  }
+
+  .sidenav a {
+    width: 70%;
+  }
+
+  .actus a:visited {
+    color: #5e5e5e;
+  }
+
+  /* Page centre */
+
+  .titre-centre {
+    font-size: 20px;
+  }
+
+  .intro-center {
+    font-size: 14px;
+  }
+
+  .transition-centre {
+    font-size: 14px;
+  }
+
+  .centre-intro-img {
+    display: none;
+  }
+
+  .part2 {
+    padding: 0;
+  }
+
+  .centrepart2gaucheimg1 {
+    left: 100px;
+    top: -100px;
+    width: 65%;
+  }
+
+  .centrepart2gaucheimg2 {
+    top: -10px;
+    border-right: 30px solid #d3d900;
+  }
+
+  .titre-part2-centre {
+    margin-top: 220px;
+  }
+
+  .conseils {
+    display: block;
+  }
+
+  .conseilpart2 {
+    margin-top: 0;
+  }
+
+  .conseilpart1 img,
+  .conseilpart2 img {
+    margin-bottom: 20px;
+  }
+
+  .row .conseilpart1,
+  .row .conseilpart2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .conseils .col-md-4 .opacite {
+    width: 93%;
+    height: 93%;
+  }
+
+  .opacite p {
+    font-size: 14px;
+  }
+
+  .parallax h1 {
+    font-size: 25px;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .parallax {
+    height: 200px;
+  }
+
+  .tabs {
+    width: auto;
+    margin-left: -30px;
+  }
+
+  .tab button {
+    font-size: 12px;
+  }
+
+  .tabcontent h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .temoignage {
+    display: none;
+  }
+
+  .flex {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .fin {
+    height: auto;
+    margin-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .responsive {
+    display: flex;
+  }
+
+  .responsive .row {
+    padding: 0;
+  }
+
+  .unpicto {
+    display: block;
+    text-align: center;
+  }
+
+  .col2 {
+    margin-top: 0;
+  }
+
+  .pictoi {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .sp-body p {
+    column-count: 1;
+    text-align: center;
+  }
+
+  .imgpopin {
+    height: auto;
+  }
+
+  .fin-formation {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 90px;
+    height: 420px;
+  }
+
+  .espacement {
+    display: none;
+  }
+
+  .webdesigner {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .description {
+    padding: 0 10px 0 10px;
+  }
+
+  .fond-vert2 {
+    height: 2050px;
+  }
+
+  .menurech {
+    margin-top: -200px;
+    height: 280px;
+    width: 80%;
+    left: 14%;
+  }
+
+  .particulierlienforma {
+    width: 100%;
+    margin-top: 130px;
+    padding: 0;
+  }
+
+  .particulierlienforma .row {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .titre-event {
+    margin-top: 40px;
+  }
+
+  .excerptarticle {
+    width: auto;
+  }
+
+  .imgarticle img {
+    width: auto;
+  }
+
+  .actuentry-content {
+    width: auto;
+  }
+
+  .rech1,
+  .rech2 {
+    display: block;
+  }
+
+  .textrech1 {
+    width: 100%;
+  }
+
+  .textrech1 h5 br {
+    display: none;
+  }
+
+  .champsrech1,
+  .champsrech2 {
+    height: auto;
+    display: block;
+    margin-top: -20px;
+    width: 100%;
+  }
+
+  .champsrech2 {
+    margin-top: -80px;
+  }
+
+  .alignrech1 {
+    width: 100%;
+    margin-top: -80px !important;
+  }
+
+  .alignrech1 label {
+    margin-top: 50px;
+  }
+
+  .alignrech1 select,
+  .alignrech2 input {
+    height: 35px;
+    width: 100%;
+  }
+
+  .alignrech4 {
+    margin-top: -20px;
+  }
+
+  .textrech1 h5 {
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .champsrech1 button,
+  .champsrech2 button {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .separrech {
+    display: none;
+  }
+
+  .titre_module {
+    font-size: 24px;
+  }
+
+  .separation {
+    width: 50%;
+  }
+
+  .text_intro_module {
+    width: 100%;
+    text-align: left;
+  }
+
+  .intromodule {
+    width: 80%;
+  }
+
+  .dureepublic {
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reconnaissance {
+    margin-bottom: 15px;
+  }
+
+  .public_module,
+  .duree_module {
+    text-align: left;
+  }
+
+  .temoin {
+    display: none;
+  }
+
+  #masthead {
+    position: absolute;
+  }
+
+  #masthead .row {
+    flex-wrap: nowrap;
+  }
+
+  #masthead img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .parcourspart1 h3 {
+    margin-top: 15px;
+  }
+
+  .icon-menu {
+    text-align: right;
+  }
+
+  .elementrech {
+    margin-top: 20px;
+  }
+
+  .pagerech {
+    margin-top: 0;
+  }
+
+  .img-temoin {
+    width: 25%;
+    margin-top: 30px;
+  }
+
+  .textflex p {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .itemoinbas {
+    padding-left: 300px;
+  }
+}

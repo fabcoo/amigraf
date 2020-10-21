@@ -1,0 +1,136 @@
+@media screen and (max-width: 1380px) {
+  .titre-accueil {
+    font-size: 35px;
+  }
+
+  .text-intro {
+    font-size: 18px;
+  }
+
+  .titre-actu {
+    margin-top: 45%;
+    font-size: 18px;
+  }
+
+  .temoignage {
+    margin-left: 170px;
+  }
+
+  .temoignages {
+    margin-left: -45px;
+  }
+
+  .trame-verte {
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .fond-vert {
+    margin-top: 0;
+  }
+
+  .textpicto,
+  .textpicto2 {
+    font-size: 13px;
+  }
+
+  .textpicto2 br {
+    display: none;
+  }
+
+  .smart-popin .sp-body {
+    min-width: 800px;
+  }
+
+  .fin-formation {
+    height: 350px;
+  }
+
+  .titre-lien {
+    width: 90%;
+  }
+
+  .tag-event {
+    margin-top: 10px;
+  }
+
+  .titre-partie-deux br {
+    display: none;
+  }
+
+  .h2apprenti {
+    padding-top: 30px;
+  }
+
+  .webdesigner h2 {
+    font-size: 28px;
+  }
+
+  .part2 {
+    padding: 50px 100px 10px 100px;
+  }
+
+  .centrepart2gaucheimg1 {
+    top: 0;
+  }
+
+  .centrepart2gaucheimg2 {
+    width: 80%;
+    bottom: -150px;
+    left: 0;
+  }
+
+  .imgcentre {
+    margin-top: 120px;
+  }
+
+  .taille-perso {
+    padding-left: 50px;
+  }
+
+  .fin {
+    height: 350px;
+  }
+
+  .champsrech1,
+  .champsrech2 {
+    width: 85%;
+  }
+
+  .textrech1 {
+    width: 15%;
+  }
+
+  .intromodule {
+    width: 50%;
+  }
+
+  .smart-popin .cell2 {
+    margin-top: 150px;
+  }
+
+  .Video {
+    height: 75%;
+  }
+
+  .conseils .col-md-4 .opacite {
+    width: 86%;
+    height: 100%;
+  }
+
+  .opacite p {
+    font-size: 14px;
+  }
+
+  .itemoinhaut {
+    padding-right: 0;
+  }
+
+  .testflex p {
+    font-size: 14px;
+  }
+
+  .parcourspart1 h3 {
+    margin-top: -5px;
+  }
+}
