@@ -45,7 +45,7 @@
 	</div>
 
 	<div class="trame-grise"></div>
-	<h2>Nos dernières actualités</h2>
+	<h2 class="text-center">Nos dernières actualités</h2>
 	<div class="container-fuid padding-large">
 		<div class="slideshow-container">
 			<?php
