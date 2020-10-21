@@ -439,10 +439,10 @@ hr {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.33;
-  color: white;
+  color: #1a171b;
   display: block;
   background-color: #d3d900;
-  padding: 20px;
+  padding: 30px 15px 30px 15px;
 }
 
 .fondVideo {
