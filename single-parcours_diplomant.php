@@ -88,7 +88,7 @@
 						<p class="objectif_module"><?php the_field('public');?></p>
 
 						<h3>PRÉ-REQUIS</h3>
-						<p class="objectif_module"><?php the_field('pre-requis');?></p>
+						<p class="objectif_module"><?php the_field('pre_requis');?></p>
 
 						<h3>MÉTHODE PÉDAGOGIQUE</h3>
 						<p class="objectif_module"><?php the_field('methode_pedagogique');?></p>
