@@ -1579,13 +1579,11 @@ textarea {
   height: 50px !important;
 }
 
-h5 {
+.wpv-filter-form label {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-  font-weight: bold;
   color: #1a171b;
-  margin-top: -1px;
 }
 
 .champsrech1 button {
