@@ -42,7 +42,7 @@
 							   <p class="titrefooter">À propos</p>
 								<a href="/amigraf/mentions-legales/"><p class="mention">Mentions légales</p></a>
 								 <p class="mention">Réalisation Graphique : Yoozly</p>
-								 <p class="mention">Développement : Inès Roy</p>
+								 <p class="mention">Développement : Inès Roy, Antoine Pohue, Fabien Coo</p>
 						</div>
 						<div class="col-md-3 align-droite">
 								<a href="https://www.facebook.com/amigraf.lille/" target="_blank"><i class="fab fa-facebook-f"></i></a>

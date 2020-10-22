@@ -1,6 +1,6 @@
 function ouvreMenu() {
-  document.getElementById("mySidenav").style.width = "1850px";
-  document.getElementById("mySidenav").style.height = "100%";
+  document.getElementById("mySidenav").style.width = "100vw";
+  document.getElementById("mySidenav").style.height = "100vh";
   var elmt = document.getElementById("body");
   elmt.style.backgroundColor = "white";
 }

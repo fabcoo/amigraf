@@ -140,7 +140,7 @@ ul {
   top: 0;
   left: 0;
   background-color: rgba(27, 27, 27, 0.5);
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
 }
 
@@ -166,7 +166,7 @@ ul {
 }
 
 .pictomailmenu {
-  height: 450px;
+  height: 1200px;
   background-color: black;
   width: 42%;
 }
@@ -174,7 +174,7 @@ ul {
 .pictomail a {
   list-style-type: none;
   padding-left: 90px;
-  font-size: 14px;
+  font-size: 16px;
   border-bottom: none;
 }
 
