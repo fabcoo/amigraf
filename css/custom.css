@@ -1518,16 +1518,27 @@ textarea {
 }
 
 .champsrech1 {
-  width: 90%;
-  height: 60px;
+  width: 100%;
+  min-height: 60px;
   justify-content: space-between;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .champsrech2 {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
+  margin-top: 25px;
+  align-items: flex-end;
+}
+
+.champsrech2 .form-group{
+  width: 87.5%;
+}
+
+.champsrech2 .form-group input{
+  margin-bottom: 0;
 }
 
 .alignrech2 {
@@ -1551,11 +1562,12 @@ textarea {
 }
 
 .alignrech1{
-  width: 50%;
+  width: 47.5%;
 }
 
 .alignrech4 {
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .alignrech4 select {
@@ -1604,8 +1616,8 @@ h5 {
   font-weight: bold;
   text-align: center;
   padding: 8px 0 8px 0;
-  height: 40px;
-  margin-top: 35px;
+  height: 50px;
+  /* margin-top: 35px; */
 }
 
 .separrech {
