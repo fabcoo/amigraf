@@ -307,17 +307,17 @@
   .champsrech2 {
     height: auto;
     display: block;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     width: 100%;
   }
 
   .champsrech2 {
-    margin-top: -80px;
+    /* margin-top: -80px; */
   }
 
   .alignrech1 {
     width: 100%;
-    margin-top: -80px !important;
+    /* margin-top: -80px !important; */
   }
 
   .alignrech1 label {
@@ -331,13 +331,7 @@
   }
 
   .alignrech4 {
-    margin-top: -20px;
-  }
-
-  .textrech1 h5 {
-    margin-top: -50px;
-    margin-bottom: 0;
-    padding: 0;
+    /* margin-top: -20px; */
   }
 
   .champsrech1 button,
