@@ -1723,10 +1723,10 @@ textarea {
 
 .elementrech {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: white;
   box-shadow: 0 0 90px 0 rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .elementrech a{
