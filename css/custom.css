@@ -1550,13 +1550,17 @@ textarea {
   flex-direction: column;
 }
 
+.alignrech1{
+  width: 50%;
+}
+
 .alignrech4 {
   margin-top: 25px;
 }
 
 .alignrech4 select {
   margin-top: 2px;
-  width: 90%;
+  width: 100%;
 }
 
 .form-control {
